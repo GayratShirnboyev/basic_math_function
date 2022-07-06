@@ -15,5 +15,5 @@ int fun(int x, double y) {
 }
 
 void main() {
-  print(fun(4, pi / 2));
+  print(fun(7, pi / 9));
 }
