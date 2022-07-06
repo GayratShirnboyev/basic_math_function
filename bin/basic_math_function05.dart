@@ -10,7 +10,7 @@ Create function named func with a argument
 import 'dart:math';
 
 int func(int s, double y) {
-  return s * cos(y).round();
+  return (s * cos(y)).round();
 }
 
 void main() {
