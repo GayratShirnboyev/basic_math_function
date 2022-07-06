@@ -7,7 +7,7 @@
       L (double): the length of the circle
 */
 double func(double e) {
-  double s = e * 2 / 4;
+  double s = e;
   return s;
 }
 
