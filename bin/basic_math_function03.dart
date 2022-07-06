@@ -8,10 +8,10 @@
 */
 import 'dart:math';
 
-double func(double a) {
-  return sqrt(a);
+num func(double s) {
+  return pow(s, 2);
 }
 
 void main() {
-  print(func(16));
+  print(func(12));
 }
