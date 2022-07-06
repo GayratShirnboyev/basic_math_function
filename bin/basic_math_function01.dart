@@ -6,5 +6,11 @@
   Returns:test
       side (double): the side of the square
 */
+double func(double t) {
+  double a = t * 2 / 4;
+  return a;
+}
 
-void main() {}
+void main() {
+  print(func(20));
+}
