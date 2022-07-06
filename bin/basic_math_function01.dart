@@ -7,10 +7,10 @@
       side (double): the side of the square
 */
 double func(double t) {
-  double a = t * 2 / 4;
+  double a = t * 1 / 4;
   return a;
 }
 
 void main() {
-  print(func(24));
+  print(func(16));
 }
