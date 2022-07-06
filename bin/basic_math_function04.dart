@@ -14,5 +14,5 @@ int func(double x, double y) {
 }
 
 void main() {
-  print(func(6, pi / 8));
+  print(func(4, pi / 6));
 }
