@@ -10,10 +10,10 @@ Create function named func with a argument
 */
 import 'dart:math';
 
-int multiple(int x, double y) {
+int float(int x, double y) {
   return (x * sin(y)).round();
 }
 
 void main() {
-  print(multiple(7, pi / 9));
+  print(float(7, pi / 9));
 }
