@@ -6,8 +6,8 @@
   Returns:test
       side (double): the side of the square
 */
-double func(double t) {
-  double a = t * 1 / 4;
+double func(double s) {
+  double a = s * 1 / 4;
   return a;
 }
 
