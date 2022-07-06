@@ -10,9 +10,9 @@
 import 'dart:math';
 
 int func(double x, double y) {
-  return (x * cos(y)).round();
+  return (x * sin(y)).round();
 }
 
 void main() {
-  print(func(4, pi / 6));
+  print(func(4, pi / 8));
 }
