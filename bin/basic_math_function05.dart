@@ -13,5 +13,5 @@ int float(int s) {
 }
 
 void main() {
-  print(float(33333));
+  print(float(2007));
 }
