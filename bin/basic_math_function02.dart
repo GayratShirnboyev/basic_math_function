@@ -6,4 +6,11 @@
   Returns:
       L (double): the length of the circle
 */
-void main() {}
+double func(double e) {
+  double s = e * 2 / 4;
+  return s;
+}
+
+void main() {
+  print(func(12));
+}
