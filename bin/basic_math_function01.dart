@@ -12,5 +12,5 @@ double func(double t) {
 }
 
 void main() {
-  print(func(20));
+  print(func(24));
 }
