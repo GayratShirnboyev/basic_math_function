@@ -13,11 +13,13 @@ import 'dart:math';
 num func(double x, double y) {
   num v = cos(x);
   num s = sin(y);
-  pow(v, 2).round();
-  pow(s, 2).round();
-  return (v + s);
+
+  v = pow(v, 2);
+  s = pow(s, 2);
+  int h = (v + s).round();
+  return h;
 }
 
 void main() {
-  print(func(5, pi / 5));
+  print(func(pi / 5, pi / 5));
 }
