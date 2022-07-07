@@ -10,10 +10,12 @@ Create function named func with a argument
 */
 import 'dart:math';
 
-int float(int x, double y) {
-  return (x * sin(y)).round();
+double func(double x, double y) {
+  double v = (x * x);
+  double s = (y * y);
+  return v;
 }
 
 void main() {
-  print(float(7, pi / 9));
+  print(func(4, pi / 6));
 }
