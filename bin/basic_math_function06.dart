@@ -10,14 +10,14 @@ Create function named func with a argument
 */
 import 'dart:math';
 
-double func(double x, double y) {
-  double v = cos(x);
-  double s = sin(y);
-  pow(v, 2);
-  pow(s, 2);
+num func(double x, double y) {
+  num v = cos(x);
+  num s = sin(y);
+  pow(v, 2).round();
+  pow(s, 2).round();
   return (v + s);
 }
 
 void main() {
-  print(func(2, pi / 5));
+  print(func(5, pi / 5));
 }
